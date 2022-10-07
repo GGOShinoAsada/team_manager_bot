@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.0"
+  },
+  "name": "demo_bot",
+  "version": "1.0.0",
+  "description": "bot for soulworker",
+  "main": "index.js",
+  "devDependencies": {},
+ 
+  "author": "IrisYouma",
+  "license": "ISC"
+}
