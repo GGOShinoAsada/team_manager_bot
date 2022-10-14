@@ -472,7 +472,12 @@ robots.on('message', async message => {
                     uId = messages.first().author.id;
                     memb = message.guild.members.cache.get(uId);
                     let isAdmin = false;
-                    
+                    memb.roles.cache.forEach(r=>{
+                        console.log("role is "+r.name);
+                        if (r.name === "admin"){
+                            isAdmin = true;
+                        }
+                    })
 
                     console.log("Is having admin permission? " + isAdmin);
 
